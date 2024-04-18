@@ -9,8 +9,8 @@
     "dev": "bun --hot --watch src/main.ts",
     "build": "bun build src/main.ts --target=bun --outfile=dist/server.js",
     "start": "bun run dist/server.js",
-    "test": "bun run vitest",
-    "coverage": "bun vitest --coverage",
+    "test": "vitest",
+    "coverage": "vitest --coverage",
     "lint": "bun eslint src/ --ext .js,.ts,.tsx,.mts --max-warnings 0",
     "format": "bun prettier --write .",
     "fix": "bun format && bun run lint --fix",
@@ -29,7 +29,7 @@
     "*.@(ts|tsx|mts)": "bash -c 'bun tsc --skipLibCheck --noEmit'",
     "*.@(ts|tsx|mts|js|jsx|mjs|cjs)": [
       "bun eslint --max-warnings 0",
-      "bun vitest related --run"
+      "vitest related --run"
     ],
     "*.@(ts|tsx|mts|js|jsx|mjs|cjs|json|jsonc|json5|md|mdx|yaml|yml)": "prettier --write"
   },
