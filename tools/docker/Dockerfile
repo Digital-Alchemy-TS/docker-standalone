@@ -44,7 +44,7 @@ RUN cd /app/dev \
     # Note: Can not do typecheck unless we pass in credentials during build time
     #    && bun run types \
     #    && bun run typecheck \
-    && bun run build
+    && bun run build:dist
 
 # Prod deps only
 RUN cd /app/prod \
