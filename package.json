@@ -34,7 +34,8 @@
   "dependencies": {
     "@digital-alchemy/core": "^0.3.11",
     "@digital-alchemy/hass": "^0.3.14",
-    "@digital-alchemy/synapse": "^0.3.5"
+    "@digital-alchemy/synapse": "^0.3.5",
+    "dayjs": "^1.11.10"
   },
   "devDependencies": {
     "@cspell/eslint-plugin": "^8.7.0",

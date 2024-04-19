@@ -2067,6 +2067,7 @@ __metadata:
     "@typescript-eslint/parser": "npm:7.6.0"
     "@vitest/coverage-v8": "npm:^1.5.0"
     bun: "npm:^1.1.4"
+    dayjs: "npm:^1.11.10"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:^2.29.1"
