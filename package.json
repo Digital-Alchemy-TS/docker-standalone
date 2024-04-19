@@ -8,8 +8,9 @@
   "scripts": {
     "dev": "bun --hot --watch src/main.ts",
     "sync": "bun tools/scripts/upgrade-da-packages-and-write-types.ts",
-    "build": "docker build . -f tools/docker/Dockerfile -t automation-prod",
+    "build": "bun --env-file .env build:docker",
     "build:dist": "bun build src/main.ts --target=bun --outfile=dist/server.js",
+    "build:docker": "docker build . -f tools/docker/Dockerfile --build-arg HASS_TOKEN=$HASS_TOKEN --build-arg HASS_BASE_URL=$HASS_BASE_URL -t automation-prod",
     "start": "docker run --env-file .env automation-prod",
     "test": "vitest",
     "coverage": "vitest --coverage",
