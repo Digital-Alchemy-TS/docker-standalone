@@ -6,7 +6,6 @@ passwd
 
 # Home Assistant generated files
 /.cloud
-/.storage
 /backups
 **/*.log*
 temp.txt
