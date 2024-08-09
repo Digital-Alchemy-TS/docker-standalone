@@ -4,7 +4,6 @@
   "homepage": "https://docs.digital-alchemy.app/",
   "description": "A quick start demo workspace to building code with @digital-alchemy. Tuned for running as a standalone project",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "start": "tsx src/main.ts",
     "start:watch": "nodemon --exec tsx src/main.ts",
@@ -16,7 +15,7 @@
     "upgrade": "yarn up '@digital-alchemy/*'",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest --coverage --passWithNoTests",
-    "lint": "eslint src/ --ext .js,.ts,.tsx,.mts --max-warnings 0",
+    "lint": "eslint src/ --max-warnings 0",
     "lint:fix": "yarn format && yarn lint --fix",
     "format": "prettier --write .",
     "type-writer": "type-writer",
