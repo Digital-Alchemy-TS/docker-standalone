@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "bun --hot --inspect --watch src/main.ts",
+    "dev": "bun --hot --watch src/main.ts",
     "play": "docker-compose -f playground/docker-compose.yml up",
     "endplay": "docker-compose -f playground/docker-compose.yml down",
     "type-writer": "type-writer",
