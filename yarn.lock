@@ -2050,47 +2050,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"automation-standalone@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "automation-standalone@workspace:."
-  dependencies:
-    "@cspell/eslint-plugin": "npm:^8.7.0"
-    "@digital-alchemy/core": "npm:^0.3.11"
-    "@digital-alchemy/hass": "npm:^0.3.14"
-    "@digital-alchemy/synapse": "npm:^0.3.5"
-    "@digital-alchemy/type-writer": "npm:^0.3.8"
-    "@types/async": "npm:^3.2.24"
-    "@types/bun": "npm:^1.1.0"
-    "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:^20.12.7"
-    "@typescript-eslint/eslint-plugin": "npm:7.6.0"
-    "@typescript-eslint/parser": "npm:7.6.0"
-    "@vitest/coverage-v8": "npm:^1.5.0"
-    bun: "npm:^1.1.4"
-    dayjs: "npm:^1.11.10"
-    eslint: "npm:8.57.0"
-    eslint-config-prettier: "npm:9.1.0"
-    eslint-plugin-import: "npm:^2.29.1"
-    eslint-plugin-jsonc: "npm:^2.15.1"
-    eslint-plugin-no-unsanitized: "npm:^4.0.2"
-    eslint-plugin-prettier: "npm:^5.1.3"
-    eslint-plugin-security: "npm:^3.0.0"
-    eslint-plugin-simple-import-sort: "npm:^12.1.0"
-    eslint-plugin-sonarjs: "npm:^0.25.1"
-    eslint-plugin-sort-keys-fix: "npm:^1.1.2"
-    eslint-plugin-unicorn: "npm:^52.0.0"
-    eslint-plugin-vitest: "npm:^0.5.3"
-    husky: "npm:^8.0.3"
-    lint-staged: "npm:^15.1.0"
-    prettier: "npm:^3.2.5"
-    shellcheck: "npm:^2.2.0"
-    tsx: "npm:^4.7.2"
-    type-fest: "npm:^4.15.0"
-    typescript: "npm:^5.4.5"
-    vitest: "npm:^1.5.0"
-  languageName: unknown
-  linkType: soft
-
 "available-typed-arrays@npm:^1.0.7":
   version: 1.0.7
   resolution: "available-typed-arrays@npm:1.0.7"
@@ -2868,6 +2827,47 @@ __metadata:
   checksum: 10/fa05e18324510d7283f55862f3161c6759a3f2f8dbce491a2fc14c8324c498286c54282c1f0e933cb930da8419b30679389499b919122952a4f8592362ef4615
   languageName: node
   linkType: hard
+
+"docker-standalone@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "docker-standalone@workspace:."
+  dependencies:
+    "@cspell/eslint-plugin": "npm:^8.7.0"
+    "@digital-alchemy/core": "npm:^0.3.11"
+    "@digital-alchemy/hass": "npm:^0.3.14"
+    "@digital-alchemy/synapse": "npm:^0.3.5"
+    "@digital-alchemy/type-writer": "npm:^0.3.8"
+    "@types/async": "npm:^3.2.24"
+    "@types/bun": "npm:^1.1.0"
+    "@types/jest": "npm:^29.5.12"
+    "@types/node": "npm:^20.12.7"
+    "@typescript-eslint/eslint-plugin": "npm:7.6.0"
+    "@typescript-eslint/parser": "npm:7.6.0"
+    "@vitest/coverage-v8": "npm:^1.5.0"
+    bun: "npm:^1.1.4"
+    dayjs: "npm:^1.11.10"
+    eslint: "npm:8.57.0"
+    eslint-config-prettier: "npm:9.1.0"
+    eslint-plugin-import: "npm:^2.29.1"
+    eslint-plugin-jsonc: "npm:^2.15.1"
+    eslint-plugin-no-unsanitized: "npm:^4.0.2"
+    eslint-plugin-prettier: "npm:^5.1.3"
+    eslint-plugin-security: "npm:^3.0.0"
+    eslint-plugin-simple-import-sort: "npm:^12.1.0"
+    eslint-plugin-sonarjs: "npm:^0.25.1"
+    eslint-plugin-sort-keys-fix: "npm:^1.1.2"
+    eslint-plugin-unicorn: "npm:^52.0.0"
+    eslint-plugin-vitest: "npm:^0.5.3"
+    husky: "npm:^8.0.3"
+    lint-staged: "npm:^15.1.0"
+    prettier: "npm:^3.2.5"
+    shellcheck: "npm:^2.2.0"
+    tsx: "npm:^4.7.2"
+    type-fest: "npm:^4.15.0"
+    typescript: "npm:^5.4.5"
+    vitest: "npm:^1.5.0"
+  languageName: unknown
+  linkType: soft
 
 "doctrine@npm:^2.1.0":
   version: 2.1.0
