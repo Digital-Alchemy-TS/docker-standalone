@@ -43,7 +43,7 @@ cd automation-standalone
 version.
 
 ```bash
-npm unistall -g yarn pnpm
+npm uninstall -g yarn pnpm
 corepack enable
 ```
 
