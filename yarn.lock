@@ -677,9 +677,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@digital-alchemy/type-writer@npm:^24.9.4":
-  version: 24.9.4
-  resolution: "@digital-alchemy/type-writer@npm:24.9.4"
+"@digital-alchemy/type-writer@npm:^24.9.5":
+  version: 24.9.6
+  resolution: "@digital-alchemy/type-writer@npm:24.9.6"
   dependencies:
     js-yaml: "npm:^4.1.0"
     quicktype: "npm:^23.0.170"
@@ -689,8 +689,8 @@ __metadata:
     "@digital-alchemy/core": "*"
     "@digital-alchemy/hass": "*"
   bin:
-    type-writer: dist/main.js
-  checksum: 10/4659085c7afe31742a7150c69d7e7ad8d5121e0c5b088790a71c612ddde5996903f9eb2506d88ce8b75c834378664fe15828eade051168a9f52969e7b74976f8
+    type-writer: scripts/run.sh
+  checksum: 10/5392b89579bb363aced2105de489cb7fda552bc2abac693e29161c58d6eecfcb9f69c966f8cd96cc025b935fd705032fad1f96b6b5134f765781edbc036abcf9
   languageName: node
   linkType: hard
 
@@ -3000,7 +3000,7 @@ __metadata:
     "@digital-alchemy/hass": "npm:^24.9.4"
     "@digital-alchemy/mqtt-extension": "npm:^24.9.1"
     "@digital-alchemy/synapse": "npm:^24.9.4"
-    "@digital-alchemy/type-writer": "npm:^24.9.4"
+    "@digital-alchemy/type-writer": "npm:^24.9.5"
     "@types/async": "npm:^3.2.24"
     "@types/bun": "npm:^1.1.10"
     "@types/jest": "npm:^29.5.12"
