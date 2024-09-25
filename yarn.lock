@@ -677,9 +677,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@digital-alchemy/type-writer@npm:^24.9.2":
-  version: 24.9.2
-  resolution: "@digital-alchemy/type-writer@npm:24.9.2"
+"@digital-alchemy/type-writer@npm:^24.9.4":
+  version: 24.9.4
+  resolution: "@digital-alchemy/type-writer@npm:24.9.4"
   dependencies:
     js-yaml: "npm:^4.1.0"
     quicktype: "npm:^23.0.170"
@@ -690,7 +690,7 @@ __metadata:
     "@digital-alchemy/hass": "*"
   bin:
     type-writer: dist/main.js
-  checksum: 10/0616878c1b0963a34fe0190fe60a95da4f7fb74923a2aa008050531ab2515ba6bb328bbd9c8ccb0a00a73743d66f64d20f78ecf3cc75bc83ed9eca03f1d6d80b
+  checksum: 10/4659085c7afe31742a7150c69d7e7ad8d5121e0c5b088790a71c612ddde5996903f9eb2506d88ce8b75c834378664fe15828eade051168a9f52969e7b74976f8
   languageName: node
   linkType: hard
 
@@ -3000,7 +3000,7 @@ __metadata:
     "@digital-alchemy/hass": "npm:^24.9.4"
     "@digital-alchemy/mqtt-extension": "npm:^24.9.1"
     "@digital-alchemy/synapse": "npm:^24.9.4"
-    "@digital-alchemy/type-writer": "npm:^24.9.2"
+    "@digital-alchemy/type-writer": "npm:^24.9.4"
     "@types/async": "npm:^3.2.24"
     "@types/bun": "npm:^1.1.10"
     "@types/jest": "npm:^29.5.12"
@@ -3011,6 +3011,7 @@ __metadata:
     bun: "npm:^1.1.22"
     cross-env: "npm:^7.0.3"
     dayjs: "npm:^1.11.13"
+    dotenv: "npm:^16.4.5"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-plugin-import: "npm:^2.29.1"
@@ -3025,11 +3026,13 @@ __metadata:
     eslint-plugin-vitest: "npm:^0.5.4"
     husky: "npm:^8.0.3"
     lint-staged: "npm:^15.2.8"
+    node-cron: "npm:^3.0.3"
     prettier: "npm:^3.3.3"
     shellcheck: "npm:^3.0.0"
     tsx: "npm:^4.17.0"
     type-fest: "npm:^4.24.0"
     typescript: "npm:^5.4.5"
+    uuid: "npm:^10.0.0"
     vitest: "npm:^2.0.5"
   languageName: unknown
   linkType: soft
@@ -3049,6 +3052,13 @@ __metadata:
   dependencies:
     esutils: "npm:^2.0.2"
   checksum: 10/b4b28f1df5c563f7d876e7461254a4597b8cabe915abe94d7c5d1633fed263fcf9a85e8d3836591fc2d040108e822b0d32758e5ec1fe31c590dc7e08086e3e48
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.4.5":
+  version: 16.4.5
+  resolution: "dotenv@npm:16.4.5"
+  checksum: 10/55a3134601115194ae0f924e54473459ed0d9fc340ae610b676e248cca45aa7c680d86365318ea964e6da4e2ea80c4514c1adab5adb43d6867fb57ff068f95c8
   languageName: node
   linkType: hard
 
@@ -5523,6 +5533,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"node-cron@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "node-cron@npm:3.0.3"
+  dependencies:
+    uuid: "npm:8.3.2"
+  checksum: 10/f088043da4f61c3640155f7b11e909e6cfb23d9970111a8dcd7b39a1f3d47c897e207bb9657b15441207df21676885b083c777630efa87801de961b15a3d0ad1
+  languageName: node
+  linkType: hard
+
 "node-fetch@npm:^2.6.12":
   version: 2.7.0
   resolution: "node-fetch@npm:2.7.0"
@@ -7503,6 +7522,24 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10/474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"uuid@npm:8.3.2":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 10/9a5f7aa1d6f56dd1e8d5f2478f855f25c645e64e26e347a98e98d95781d5ed20062d6cca2eecb58ba7c84bc3910be95c0451ef4161906abaab44f9cb68ffbdd1
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "uuid@npm:10.0.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 10/35aa60614811a201ff90f8ca5e9ecb7076a75c3821e17f0f5ff72d44e36c2d35fcbc2ceee9c4ac7317f4cc41895da30e74f3885e30313bee48fda6338f250538
   languageName: node
   linkType: hard
 
